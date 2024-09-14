@@ -1,38 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url('/Users/gieradopham25/Projects/resume/public/background2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* A dark overlay for readability */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(10, 46, 107, 0.9)); /* Sleek gradient background */
   color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  border-bottom: 2px solid #f0e68c; /* Soft golden border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
-.App-link {
-  color: #61dafb;
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(to right, #f0e68c, transparent); /* Elegant golden line below the header */
+  border-radius: 10px;
+  margin-top: -4px; /* Pull it up a bit */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header h1 {
+  font-family: 'Playfair Display', serif; /* Elegant and modern font for a professional look */
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5); /* Adds depth */
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-family: 'Raleway', sans-serif; /* Modern font for description/subtext */
+  font-size: 1.2em;
+  color: #f0e68c; /* Soft gold color for contrast */
+  margin-top: 20px;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header .underline {
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  background-color: #f0e68c;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Increased gap for better spacing */
+}
+
+.section {
+  background-color: rgba(255, 255, 255, 0.1); /* Translucent section background */
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.5);
+}
+
+.section h2 {
+  font-size: 2em;
+  color: #f0e68c; /* Soft golden text color */
+  margin-bottom: 20px;
+}
+
+.section h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #f0e68c;
+  margin-top: 10px;
+}
+
+.section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.skill {
+  background-color: rgba(240, 230, 140, 0.2); /* Soft gold background with transparency */
+  color: #f5f5f5; /* Soft golden text */
+  padding: 12px 24px;
+  border-radius: 25px; /* Rounded pill-shaped corners */
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif; /* Clean modern font */
+  border: 1px solid #f0e68c; /* Soft gold border for a refined touch */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skill:hover {
+  background-color: rgba(240, 230, 140, 0.4); /* Darker on hover */
+  transform: translateY(-5px); /* Adds a slight lift on hover */
+}
+
+.link-button {
+  display: inline-block;
+  background-color: #0a2e6b;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #0641a0;
+}
+
+footer {
+  text-align: center;
+  color: #bbb;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 50px;
+}
+
+
+
+.contact-message {
+  margin-bottom: 20px; /* Space below the message */
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center; /* Vertically aligns items */
+  justify-content: center;
+  gap: 10px; /* Space between logos */
+}
+
+.experience-section {
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.email-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #f5f5f5; /* Match text color with the rest of the design */
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #e0d9b7; /* Light beige for hover effect */
+}
+
+.mail-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.mail-logo:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.social-logo {
+  width: 164px;
+  height: 40px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
 }
