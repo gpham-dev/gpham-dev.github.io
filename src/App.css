@@ -1,3 +1,4 @@
+/* Universal Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,12 +12,11 @@ body {
   background-attachment: fixed;
   background-position: center;
   color: #333;
-  margin: 0;
-  padding: 0;
 }
 
+/* Overlay for readability */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6); /* A dark overlay for readability */
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
   position: absolute;
   top: 0;
   left: 0;
@@ -25,6 +25,7 @@ body {
   z-index: -1;
 }
 
+/* Main App Container */
 .App {
   display: flex;
   flex-direction: column;
@@ -32,11 +33,12 @@ body {
   padding: 20px;
 }
 
+/* Header Styles */
 .header {
   width: 100%;
   text-align: center;
   padding: 60px 0;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(10, 46, 107, 0.9)); /* Sleek gradient background */
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(10, 46, 107, 0.9));
   color: white;
   font-family: 'Cinzel', serif;
   font-size: 1em;
@@ -44,7 +46,7 @@ body {
   text-transform: uppercase;
   position: relative;
   border-bottom: 2px solid #f0e68c; /* Soft golden border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 .header::before {
@@ -55,23 +57,23 @@ body {
   transform: translateX(-50%);
   width: 80%;
   height: 4px;
-  background: linear-gradient(to right, #f0e68c, transparent); /* Elegant golden line below the header */
+  background: linear-gradient(to right, #f0e68c, transparent); /* Golden line */
   border-radius: 10px;
-  margin-top: -4px; /* Pull it up a bit */
+  margin-top: -4px;
 }
 
 .header h1 {
-  font-family: 'Playfair Display', serif; /* Elegant and modern font for a professional look */
+  font-family: 'Playfair Display', serif; /* Elegant font */
   font-weight: 700;
   letter-spacing: 3px;
-  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5); /* Adds depth */
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5); /* Depth */
   margin-bottom: 10px;
 }
 
 .header p {
-  font-family: 'Raleway', sans-serif; /* Modern font for description/subtext */
+  font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
-  color: #f0e68c; /* Soft gold color for contrast */
+  color: #f0e68c; /* Soft gold color */
   margin-top: 20px;
   letter-spacing: 1px;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
@@ -86,27 +88,19 @@ body {
   border-radius: 5px;
 }
 
-h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-}
-
-p {
-  font-size: 1.2em;
-}
-
+/* Container Styles */
 .container {
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
-  gap: 40px; /* Increased gap for better spacing */
+  gap: 40px;
 }
 
+/* Section Styles */
 .section {
-  background-color: rgba(255, 255, 255, 0.1); /* Translucent section background */
+  background-color: rgba(255, 255, 255, 0.1); /* Translucent background */
   padding: 30px;
   border-radius: 15px;
   margin-bottom: 40px;
@@ -122,9 +116,17 @@ p {
 
 .section h2 {
   font-size: 2em;
-  color: #f0e68c; /* Soft golden text color */
+  color: #f0e68c; /* Soft golden text */
   margin-bottom: 20px;
 }
+
+.section h3 {
+  font-size: 20px;
+  color: #ddd;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
 
 .section h2::after {
   content: '';
@@ -139,15 +141,17 @@ p {
   font-size: 1.1em;
   line-height: 1.6;
   color: #ddd;
+  text-indent: -20px;
+  padding-left: 20px;
 }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 20px;
+.section g {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #f5f5f5;
 }
 
+/* Skills Section */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -156,21 +160,22 @@ p {
 }
 
 .skill {
-  background-color: rgba(240, 230, 140, 0.2); /* Soft gold background with transparency */
+  background-color: rgba(240, 230, 140, 0.2); /* Soft gold with transparency */
   color: #f5f5f5; /* Soft golden text */
   padding: 12px 24px;
-  border-radius: 25px; /* Rounded pill-shaped corners */
+  border-radius: 25px;
   font-size: 1em;
-  font-family: 'Raleway', sans-serif; /* Clean modern font */
-  border: 1px solid #f0e68c; /* Soft gold border for a refined touch */
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #f0e68c; /* Soft gold border */
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .skill:hover {
-  background-color: rgba(240, 230, 140, 0.4); /* Darker on hover */
-  transform: translateY(-5px); /* Adds a slight lift on hover */
+  background-color: rgba(240, 230, 140, 0.4);
+  transform: translateY(-5px);
 }
 
+/* Link Button */
 .link-button {
   display: inline-block;
   background-color: #0a2e6b;
@@ -186,6 +191,7 @@ p {
   background-color: #0641a0;
 }
 
+/* Footer */
 footer {
   text-align: center;
   color: #bbb;
@@ -194,20 +200,20 @@ footer {
   margin-top: 50px;
 }
 
-
-
+/* Contact Section */
 .contact-message {
-  margin-bottom: 20px; /* Space below the message */
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .contact-info {
   display: flex;
-  align-items: center; /* Vertically aligns items */
+  align-items: center;
   justify-content: center;
-  gap: 10px; /* Space between logos */
+  gap: 10px;
 }
 
+/* Experience Section */
 .experience-section {
   min-height: 200px;
   padding: 20px;
@@ -216,18 +222,19 @@ footer {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* Email Link */
 .email-link {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  color: #f5f5f5; /* Match text color with the rest of the design */
+  color: #f5f5f5;
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   transition: color 0.3s ease;
 }
 
 .email-link:hover {
-  color: #e0d9b7; /* Light beige for hover effect */
+  color: #e0d9b7; /* Light beige for hover */
 }
 
 .mail-logo {
@@ -238,7 +245,7 @@ footer {
 }
 
 .mail-logo:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.1); /* Slight zoom */
 }
 
 .social-logo {
@@ -249,5 +256,72 @@ footer {
 }
 
 .social-logo:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.1); /* Slight zoom */
+}
+
+.company {
+  font-weight: bold;
+  font-size: 25px !important;
+}
+
+.school {
+  font-size: 25px !important;
+  margin-top: 20px;
+}
+
+.indented {
+  padding-left: 20px;
+  font-size:17.5px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  margin: 0;
+  color: #ddd;
+}
+
+ul li {
+  margin-top:10px;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .header {
+    padding: 40px 0;
+  }
+
+  .header h1 {
+    font-size: 2.5em;
+  }
+
+  .section h2 {
+    font-size: 1.5em;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill {
+    font-size: 0.9em;
+  }
+}
+
+.indented {
+  padding-left: 20px;
+  color: #ddd;
+}
+
+/* Indented Section */
+.indented-section {
+  padding-left: 20px; /* Adjust as needed */
+  margin-bottom:20px;
 }
