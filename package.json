@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gpham-dev.github.io/resume-website",
+  "homepage": "https://gpham-dev.github.io/resume-website/",
   "dependencies": {
     "@babel/plugin-transform-class-properties": "^7.25.4",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
