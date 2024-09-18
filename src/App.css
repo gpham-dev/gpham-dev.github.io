@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-image: url('/Users/gieradopham25/Projects/resume/public/background2.jpg');
+  background-image: url('background2.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
