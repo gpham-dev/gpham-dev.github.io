@@ -102,7 +102,7 @@ function Projects() {
         <div className="project">
           <h3>Resume Page</h3>
           <g>  A professional, modern resume website built with React.js and automated using GitHub Actions for continuous deployment. This site dynamically showcases my work experience, skills, and projects in a sleek and user-friendly interface, all hosted seamlessly on GitHub Pages.</g>
-          <a href="https://gpham-dev.github.io/resume-website/" className="link-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <a href="https://github.com/gpham-dev/resume-website" className="link-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
         </div>
         <div className="project">
           <h3>CosmicPath: A Planetary Motion Simulator</h3>
