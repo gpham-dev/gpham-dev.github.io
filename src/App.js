@@ -143,7 +143,7 @@ function Contact() {
         <a href="mailto:gierado.pham@gmail.com" target="_blank" rel="noopener noreferrer">
           <img src={`${process.env.PUBLIC_URL}/mail-logo.png`} alt="Gmail" className="mail-logo" />
         </a>
-        <a href="https://www.linkedin.com/in/your-profile-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/gierado-pham/" target="_blank" rel="noopener noreferrer">
           <img src={`${process.env.PUBLIC_URL}/linkedin-logo.png`} alt="LinkedIn" className="social-logo" />
         </a>
       </div>
