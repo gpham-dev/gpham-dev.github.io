@@ -107,7 +107,7 @@ function Projects() {
         <div className="project">
           <h3>CosmicPath: A Planetary Motion Simulator</h3>
           <g>CosmicPath is a physics-driven planetary simulation utilizing real-world data from NASA’s HORIZONS API to model the motion of celestial bodies. It provides a visually immersive experience that accurately reflects gravitational forces, orbital paths, and planetary properties. Developed in Python, this project demonstrates my ability to integrate APIs, handle large datasets, and apply computational models to visualize complex space phenomena.</g>
-          <a href="https://github.com/gpham-dev/CosmicPath1" className="link-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <a href="https://github.com/gpham-dev/CosmicPath" className="link-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
         </div>
         {/* Add more projects as needed */}
       </div>
