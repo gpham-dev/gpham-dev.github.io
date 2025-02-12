@@ -119,7 +119,9 @@ function Skills() {
         <div className="skills">
           <span className="skill">AWS Certified Cloud Practitioner</span>
           <span className="skill">AWS Core Services</span>
-          <span className="skill">GitHub & GitLab</span>
+          <span className="skill">GitHub Actions</span>
+          <span className="skill">GitHub Pages</span>
+          <span className="skill">GitLab</span>
           <span className="skill">CI/CD Pipelines</span>
           <span className="skill">Terraform</span>
           <span className="skill">Python</span>
@@ -137,6 +139,11 @@ function Skills() {
           <span className="skill">Aurora</span>
           <span className="skill">Infrastructure as Code</span>
           <span className="skill">Agile Methodologies</span>
+          <span className="skill">API Integration</span>
+          <span className="skill">Object-Oriented Programming</span>
+          <span className="skill">Simulation Modeling</span>
+          <span className="skill">Data Handling & Visualization</span>
+          <span className="skill">Version Control</span>
         </div>
       </div>
     </section>
