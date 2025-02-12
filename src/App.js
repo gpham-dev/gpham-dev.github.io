@@ -104,7 +104,6 @@ function Skills() {
           <span className="skill">Python</span>
           <span className="skill">C++</span>
           <span className="skill">JavaScript</span>
-          <span className="skill">Kalman Filtering & Sensor Fusion</span>
           <span className="skill">Automated Testing & Verification</span>
           <span className="skill">Git & Bitbucket</span>
           <span className="skill">Agile Methodologies</span>
