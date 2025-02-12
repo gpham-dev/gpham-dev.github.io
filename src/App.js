@@ -83,16 +83,74 @@ function Skills() {
   return (
     <section className="section">
       <h2><i className="fas fa-cogs"></i> Skills</h2>
-      <div className="skills">
-        <span className="skill">Spacecraft Design</span>
-        <span className="skill">AWS Certified Cloud Practitioner</span>
-        <span className="skill">Avionics</span>
-        <span className="skill">Systems Engineering</span>
-        <span className="skill">Mission Analysis</span>
+
+      {/* Aerospace Skills Section */}
+      <div className="skills-category">
+        <h3><i className="fas fa-space-shuttle"></i> Aerospace Skills</h3>
+        <div className="skills">
+          <span className="skill">Trajectory Optimization</span>
+          <span className="skill">Control Systems</span>
+          <span className="skill">Autopilot Development</span>
+          <span className="skill">Guidance Algorithms</span>
+          <span className="skill">Monte Carlo Analysis</span>
+          <span className="skill">3DOF & 6DOF Simulation</span>
+          <span className="skill">Flight Dynamics</span>
+          <span className="skill">Aerodynamics</span>
+          <span className="skill">Computational Fluid Dynamics (CFD)</span>
+          <span className="skill">Stability & Control Analysis</span>
+          <span className="skill">Propulsion System Integration</span>
+          <span className="skill">Mass Properties</span>
+          <span className="skill">CAD Software (CATIA, NX, SolidWorks)</span>
+          <span className="skill">Center of Gravity & Moment of Inertia Calculation</span>
+          <span className="skill">Critical Mass Analysis</span>
+          <span className="skill">Weight Estimation & Budgeting</span>
+          <span className="skill">MATLAB</span>
+          <span className="skill">Simulink</span>
+          <span className="skill">Python</span>
+          <span className="skill">C++</span>
+          <span className="skill">State-Space Representation</span>
+          <span className="skill">Kalman Filtering & Sensor Fusion</span>
+          <span className="skill">Embedded Systems Programming</span>
+          <span className="skill">Automated Testing & Verification</span>
+          <span className="skill">Fault Tolerant Systems</span>
+          <span className="skill">Git & Bitbucket (Version Control)</span>
+          <span className="skill">Agile Methodologies (Jira, Scrum)</span>
+          <span className="skill">Launch Vehicle Performance Analysis</span>
+          <span className="skill">Mission Analysis</span>
+          <span className="skill">Systems Engineering & Integration</span>
+          <span className="skill">Spacecraft Design</span>
+        </div>
+      </div>
+
+      {/* Software Skills Section */}
+      <div className="skills-category">
+        <h3><i className="fas fa-laptop-code"></i> Software Skills</h3>
+        <div className="skills">
+          <span className="skill">AWS Certified Cloud Practitioner</span>
+          <span className="skill">AWS Core Services</span>
+          <span className="skill">GitHub & GitLab</span>
+          <span className="skill">CI/CD Pipelines</span>
+          <span className="skill">Terraform</span>
+          <span className="skill">Python</span>
+          <span className="skill">MATLAB</span>
+          <span className="skill">C++</span>
+          <span className="skill">Data Analysis</span>
+          <span className="skill">React</span>
+          <span className="skill">SQL</span>
+          <span className="skill">Linux</span>
+          <span className="skill">Java</span>
+          <span className="skill">AWS IAM</span>
+          <span className="skill">S3</span>
+          <span className="skill">Lambda</span>
+          <span className="skill">DynamoDB</span>
+          <span className="skill">Aurora</span>
+          <span className="skill">IaC</span>
+        </div>
       </div>
     </section>
   );
 }
+    
 
 function Projects() {
   return (
