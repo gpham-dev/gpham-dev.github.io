@@ -105,8 +105,8 @@ function Skills() {
           <span className="skill">C++</span>
           <span className="skill">Kalman Filtering & Sensor Fusion</span>
           <span className="skill">Automated Testing & Verification</span>
-          <span className="skill">Git & Bitbucket (Version Control)</span>
-          <span className="skill">Agile Methodologies (Jira, Scrum)</span>
+          <span className="skill">Git & Bitbucket</span>
+          <span className="skill">Agile Methodologies</span>
           <span className="skill">Launch Vehicle Performance Analysis</span>
           <span className="skill">Systems Engineering & Integration</span>
           <span className="skill">Spacecraft Design</span>
