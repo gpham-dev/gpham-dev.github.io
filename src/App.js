@@ -183,7 +183,6 @@ function Projects() {
   );
 }
 
-}
 function Education() {
   return (
     <section className="section">
