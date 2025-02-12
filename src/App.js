@@ -151,18 +151,37 @@ function Projects() {
       <div className="projects">
         <div className="project">
           <h3>Resume Page</h3>
-          <g>  A professional, modern resume website built with React.js and automated using GitHub Actions for continuous deployment. This site dynamically showcases my work experience, skills, and projects in a sleek and user-friendly interface, all hosted seamlessly on GitHub Pages.</g>
-          <a href="https://github.com/gpham-dev/resume-website" className="link-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <p>A professional, modern resume website built with React.js and automated using GitHub Actions for continuous deployment. This site dynamically showcases my work experience, skills, and projects in a sleek and user-friendly interface, all hosted seamlessly on GitHub Pages.</p>
+          <a 
+            href="https://github.com/gpham-dev/resume-website" 
+            className="link-button" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            aria-label="View Resume Page on GitHub"
+          >
+            View on GitHub
+          </a>
         </div>
+        
         <div className="project">
           <h3>CosmicPath: A Planetary Motion Simulator</h3>
-          <g>CosmicPath is a physics-driven planetary simulation utilizing real-world data from NASA’s HORIZONS API to model the motion of celestial bodies. It provides a visually immersive experience that accurately reflects gravitational forces, orbital paths, and planetary properties. Developed in Python, this project demonstrates my ability to integrate APIs, handle large datasets, and apply computational models to visualize complex space phenomena.</g>
-          <a href="https://github.com/gpham-dev/CosmicPath" className="link-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <p>CosmicPath is a physics-driven planetary simulation utilizing real-world data from NASA’s HORIZONS API to model the motion of celestial bodies. It provides a visually immersive experience that accurately reflects gravitational forces, orbital paths, and planetary properties. Developed in Python, this project demonstrates my ability to integrate APIs, handle large datasets, and apply computational models to visualize complex space phenomena.</p>
+          <a 
+            href="https://github.com/gpham-dev/CosmicPath" 
+            className="link-button" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            aria-label="View CosmicPath on GitHub"
+          >
+            View on GitHub
+          </a>
         </div>
+        
         {/* Add more projects as needed */}
       </div>
     </section>
   );
+}
 
 }
 function Education() {
