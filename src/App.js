@@ -100,23 +100,14 @@ function Skills() {
           <span className="skill">Stability & Control Analysis</span>
           <span className="skill">Propulsion System Integration</span>
           <span className="skill">Mass Properties</span>
-          <span className="skill">CAD Software (CATIA, NX, SolidWorks)</span>
-          <span className="skill">Center of Gravity & Moment of Inertia Calculation</span>
-          <span className="skill">Critical Mass Analysis</span>
-          <span className="skill">Weight Estimation & Budgeting</span>
           <span className="skill">MATLAB</span>
-          <span className="skill">Simulink</span>
           <span className="skill">Python</span>
           <span className="skill">C++</span>
-          <span className="skill">State-Space Representation</span>
           <span className="skill">Kalman Filtering & Sensor Fusion</span>
-          <span className="skill">Embedded Systems Programming</span>
           <span className="skill">Automated Testing & Verification</span>
-          <span className="skill">Fault Tolerant Systems</span>
           <span className="skill">Git & Bitbucket (Version Control)</span>
           <span className="skill">Agile Methodologies (Jira, Scrum)</span>
           <span className="skill">Launch Vehicle Performance Analysis</span>
-          <span className="skill">Mission Analysis</span>
           <span className="skill">Systems Engineering & Integration</span>
           <span className="skill">Spacecraft Design</span>
         </div>
@@ -144,7 +135,8 @@ function Skills() {
           <span className="skill">Lambda</span>
           <span className="skill">DynamoDB</span>
           <span className="skill">Aurora</span>
-          <span className="skill">IaC</span>
+          <span className="skill">Infrastructure as Code</span>
+          <span className="skill">Agile Methodologies</span>
         </div>
       </div>
     </section>
